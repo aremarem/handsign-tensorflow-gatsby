@@ -22,6 +22,10 @@ import {Signimage, Signpass} from '../handimage';
 
 import About from '../components/about'
 import Metatags from '../components/metatags'
+import Petunjuk from '../components/Petunjuk'
+import Tujuan from '../components/Tujuan'
+import Tentang from '../components/Tentang'
+
 
 import '../styles/App.css'
 
@@ -30,8 +34,7 @@ import '@tensorflow/tfjs-backend-webgl';
 import {RiCameraFill, RiCameraOffFill} from "react-icons/ri";
 
 export default function App() {
-
-    
+     
     const webcamRef = useRef(null);
     const canvasRef = useRef(null);
 
@@ -115,7 +118,7 @@ export default function App() {
                 if (gamestate === 'started') {
                     document
                         .querySelector('#app-title')
-                        .innerText = "Make a 👍 gesture with your hand to start";
+                        .innerText = "Buat sebuah 👍 dengan tangan anda untuk memulai";
                 }
 
                 if (estimatedGestures.gestures !== undefined && estimatedGestures.gestures.length > 0) {
@@ -134,7 +137,7 @@ export default function App() {
                             .add('play');
                             document
                             .querySelector('.tutor-text')
-                            .innerText = "make a hand gesture based on letter shown below";
+                            .innerText = "Buat gerakan sesuai dengan gambar di bawah";
                     } else if (gamestate === 'played') {
                         document
                             .querySelector('#app-title')
@@ -191,8 +194,7 @@ export default function App() {
                     <Heading as="h3" size="md" className="tutor-text" color="white" textAlign="center"></Heading>
                     <Box h="20px"></Box>
                 </VStack>
-
-                <Heading as="h1" size="lg" id="app-title" color="white" textAlign="center">🧙‍♀️ Loading the Magic 🧙‍♂️</Heading>
+                <Heading as="h1" size="lg" id="app-title" color="white" textAlign="center">🧙‍♀️  Memuat gambar 🧙‍♂️</Heading>
 
                 <Box id="webcam-container">
                     {camState === 'on'
@@ -207,7 +209,7 @@ export default function App() {
                             right: "calc(50% - 50px)",
                             bottom: 100,
                             textAlign: "-webkit-center",}}>
-                            <Text color="white" fontSize="sm" mb={1}>detected gestures</Text>
+                            <Text color="white" fontSize="sm" mb={1}>Deteksi Gerakan</Text>
                         <img alt="signImage"
                             src={Signimage[sign]}
                             style={{
@@ -231,17 +233,27 @@ export default function App() {
 
                 <Image h="150px" objectFit="cover" id='emojimage'/> 
 {/* <pre className="pose-data" color="white" style={{position: 'fixed', top: '150px', left: '10px'}} >Pose data</pre> */}
+            <Box/>
 
             </Container>
 
-            <Stack id="start-button" spacing={4} direction="row" align="center">
+            <Stack id="start-button" spacing={2} direction="row" align ="left" >
                 <Button leftIcon={camState === 'on'
                             ? <RiCameraFill size={20}/>
-                            : <RiCameraOffFill size={20}/>} onClick={turnOffCamera} colorScheme="orange">Camera</Button>
-                <About />
+                            : <RiCameraOffFill size={20}/>} onClick={turnOffCamera} colorScheme="red">Kamera</Button>
+                <About/>
+                <Petunjuk/>
+            </Stack>
+                <Stack id="tentang-button" spacing={2} direction="row" align="center">
+                <Tentang/>
+                </Stack>
+            
+            <Stack id="tujuan-button" spacing={2} direction="row" align="center">
+                <Tujuan/>
             </Stack>
             </Box>
-        </ChakraProvider>
+            </ChakraProvider>
+            
     )
 }
 

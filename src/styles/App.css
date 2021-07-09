@@ -80,7 +80,33 @@ img{
     left: calc(50% - 150px);
     z-index: 10;
 }
-
+#tentang-button{
+    /*background-color :black;*/
+    /*color: white;*/
+    /*image-size: 10px;*/
+    width: 400px;
+    border-radius: 30px;
+    border: yellow;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    z-index: 10;
+    font-size: 16px;
+}
+#tujuan-button{
+    width: 400px;
+    border-radius: 30px;
+    border: yellow;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 90px;
+    left: 20px;
+    z-index: 10;
+    font-size: 16px;
+}
 #emojimage{
     /* position: fixed; */
     top: 60px;

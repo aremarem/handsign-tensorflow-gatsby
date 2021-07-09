@@ -8,7 +8,7 @@ export default function Metatags() {
     lang: 'id',
   }}>
           <meta charSet="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-          <title>Handsign | Learn ASL using AI camera</title>
+          <title>Bahasa Isyarat | Belajar SIBI dengan AI kamera</title>
           <link rel="canonical" href="https://handsign-m4qq6.ondigitalocean.app/" />
           <meta name="description" content='A simple ASL (American Sign Language) alphabet detection using TensorFlow and Handpose model.'/>
                 <meta name="image" content='https://ik.imagekit.io/ps3xes4nrg/loveyou_emoji_0Y73SHTRFTaJ.svg' /> 

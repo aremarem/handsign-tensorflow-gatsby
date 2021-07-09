@@ -1,5 +1,5 @@
 import React from 'react'
-import handImages from '../images/handImages.svg';
+import Sign from '../images/Sign.svg';
 import {
     Text,
     Button,
@@ -20,18 +20,18 @@ export default function About() {
     
     return (
         <div>
-            <Button onClick={onOpen} colorScheme="orange">Learn More</Button>
+            <Button onClick={onOpen} colorScheme="orange">Bantuan</Button>
             
             <Modal onClose={onClose} isOpen={isOpen} isCentered>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>American Sign Language (ASL)</ModalHeader>
+          <ModalHeader>Sistem Isyarat Bahasa Indonesia (SIBI)</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-              <Text fontSize="sm">American Sign Language (ASL) is a visual language that serves as the predominant sign language of Deaf communities in the United States and most of Canada.<br></br>
-          Here's the list of ASL hand gestures for alphabet.</Text>
-          <Image src={handImages}/>
-          <Text fontSize="sm">This sign language illustration is created by <Link href="https://thenounproject.com/pelodrome/" isExternal color="orange.300">Pelin Kahraman</Link></Text>
+              <Text fontSize="sm">Sistem Isyarat Bahasa Indonesia (SIBI) yang dibakukan itu merupakan salah satu media yang membantu komunikasi sesama kaum tunarungu di dalam masyarakat yang lebih luas. <br></br>
+         Berikut adalah daftar Gerak Tangan untuk huruf alphabet SIBI.</Text>
+          <Image src={Sign}/>
+          <Text fontSize="sm">Illustrasi tersebut berdasarkan pada Yayasan Peduli Kasih ABK</Text>
             
           </ModalBody>
           <ModalFooter>
