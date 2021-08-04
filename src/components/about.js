@@ -1,5 +1,5 @@
 import React from 'react'
-import Sign from '../images/Sign.svg';
+import Sign2 from '../images/Sign2.svg';
 import {
     Text,
     Button,
@@ -30,7 +30,7 @@ export default function About() {
           <ModalBody>
               <Text fontSize="sm">Sistem Isyarat Bahasa Indonesia (SIBI) yang dibakukan itu merupakan salah satu media yang membantu komunikasi sesama kaum tunarungu di dalam masyarakat yang lebih luas. <br></br>
          Berikut adalah daftar Gerak Tangan untuk huruf alphabet SIBI.</Text>
-          <Image src={Sign}/>
+          <Image src={Sign2}/>
           <Text fontSize="sm">Illustrasi tersebut berdasarkan pada Yayasan Peduli Kasih ABK</Text>
             
           </ModalBody>

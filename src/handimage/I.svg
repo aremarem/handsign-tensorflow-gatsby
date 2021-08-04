@@ -1,9 +1,19 @@
-<svg width="8" height="35" viewBox="0 0 8 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7.51562 35H0.484375V0.875H7.51562V35Z" fill="url(#paint0_diamond)"/>
-<defs>
-<radialGradient id="paint0_diamond" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(3.24242 16.8929) rotate(88.0754) scale(45.1147 45.0815)">
-<stop stop-color="#FFD458" stop-opacity="0.78"/>
-<stop offset="1" stop-color="#F9BF2E"/>
-</radialGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="110mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 11000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:141.11}
+    .fil0 {fill:#FAED23}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M4009 721l0 9516c0,73 66,138 112,168 222,145 817,128 1099,128 193,0 372,-23 527,-57 150,-32 311,-97 311,-273l0 -9457c0,-184 -187,-247 -340,-277 -126,-26 -325,-46 -542,-53l-362 0c-279,10 -541,47 -680,124 -58,32 -125,97 -125,181z"/>
+ </g>
 </svg>

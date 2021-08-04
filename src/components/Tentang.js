@@ -23,7 +23,7 @@ export default function About() {
     return (
        
         <div>
-            <Button onClick={onOpen} colorScheme="purple">Tentang</Button>
+            <Button onClick={onOpen} colorScheme="purple">Bio Data</Button>
             
             <Modal onClose={onClose} isOpen={isOpen} isCentered>
         <ModalOverlay />

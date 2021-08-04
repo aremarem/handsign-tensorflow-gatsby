@@ -1,9 +1,19 @@
-<svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M27.0781 0.875V23.3516C27.0781 27.0859 25.9062 30.0391 23.5625 32.2109C21.2344 34.3828 18.0469 35.4688 14 35.4688C10.0156 35.4688 6.85156 34.4141 4.50781 32.3047C2.16406 30.1953 0.96875 27.2969 0.921875 23.6094V0.875H7.95312V23.3984C7.95312 25.6328 8.48438 27.2656 9.54688 28.2969C10.625 29.3125 12.1094 29.8203 14 29.8203C17.9531 29.8203 19.9609 27.7422 20.0234 23.5859V0.875H27.0781Z" fill="url(#paint0_diamond)"/>
-<defs>
-<radialGradient id="paint0_diamond" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.2424 16.8929) rotate(88.0754) scale(45.1147 45.0815)">
-<stop stop-color="#FFD458" stop-opacity="0.78"/>
-<stop offset="1" stop-color="#F9BF2E"/>
-</radialGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="110mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 11000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:141.11}
+    .fil0 {fill:#FAED23}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M1177 970l0 5698c0,963 140,1913 756,2665 19,24 33,42 52,67l181 192c103,103 272,240 402,326 474,315 1031,506 1615,585 145,20 294,34 441,50 39,5 75,-1 114,5l849 -5c71,-7 162,-14 232,-22 750,-85 1446,-302 2039,-755l205 -176c54,-55 84,-64 133,-129l178 -203c144,-185 295,-415 387,-629 14,-34 25,-51 40,-87l110 -280c207,-593 233,-1159 233,-1807l0 -5478c0,-211 -95,-276 -294,-323 -106,-25 -320,-49 -560,-58l-357 0c-332,13 -638,67 -719,195 -49,79 -34,203 -34,322l0 5605c0,605 -102,1093 -453,1561 -159,212 -411,385 -654,490 -519,224 -1256,219 -1779,5 -110,-45 -244,-115 -338,-186 -242,-184 -435,-396 -560,-677 -138,-309 -171,-501 -217,-833 -7,-51 -12,-114 -12,-166 1,-61 -9,-100 -8,-169 4,-1927 -11,-3868 0,-5791 1,-173 -81,-236 -249,-285 -131,-38 -394,-65 -675,-71l-196 0c-335,7 -657,48 -771,142l-22 20c-2,1 -3,3 -5,4l-41 60c-15,34 -23,91 -23,138z"/>
+ </g>
 </svg>

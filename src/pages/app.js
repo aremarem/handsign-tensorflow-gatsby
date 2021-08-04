@@ -33,13 +33,14 @@ import '@tensorflow/tfjs-backend-webgl';
 
 import {RiCameraFill, RiCameraOffFill} from "react-icons/ri";
 
+
 export default function App() {
-     
+         
     const webcamRef = useRef(null);
     const canvasRef = useRef(null);
 
     const [camState,
-        setCamState] = useState("on");
+        setCamState] = useState("off");
 
     const [sign, setSign] = useState(null);
 
@@ -80,7 +81,7 @@ export default function App() {
         const password = shuffle(Signpass);
         return password;
     }
-    
+        
 
     async function detect(net) {
         // Check data is available
@@ -194,7 +195,7 @@ export default function App() {
                     <Heading as="h3" size="md" className="tutor-text" color="white" textAlign="center"></Heading>
                     <Box h="20px"></Box>
                 </VStack>
-                <Heading as="h1" size="lg" id="app-title" color="white" textAlign="center">🧙‍♀️  Memuat gambar 🧙‍♂️</Heading>
+                <Heading as="h1" size="lg" id="app-title" color="white" textAlign="center"></Heading>
 
                 <Box id="webcam-container">
                     {camState === 'on'

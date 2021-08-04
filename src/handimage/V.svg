@@ -1,9 +1,19 @@
-<svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.9531 26.5391L23.6875 0.875H31.5156L19.6328 35H12.2969L0.460938 0.875H8.26562L15.9531 26.5391Z" fill="url(#paint0_diamond)"/>
-<defs>
-<radialGradient id="paint0_diamond" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15.2424 16.8929) rotate(88.0754) scale(45.1147 45.0815)">
-<stop stop-color="#FFD458" stop-opacity="0.78"/>
-<stop offset="1" stop-color="#F9BF2E"/>
-</radialGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="110mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 11000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:141.11}
+    .fil0 {fill:#FAED23}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M640 818c0,211 21,221 76,423 29,106 69,212 105,319l2781 8301c73,221 99,339 318,428 137,55 431,74 724,79l635 0 12 0c254,0 584,-5 769,-66 243,-81 264,-244 351,-504 708,-2124 1434,-4243 2142,-6367l747 -2225c206,-607 -15,-651 -676,-651l-281 0c-218,2 -450,11 -610,49 -226,55 -261,161 -320,375l-164 530c-112,342 -219,731 -332,1065l-165 529c-99,322 -248,764 -331,1066 -12,42 -29,84 -41,129 -67,246 -207,673 -289,930 -27,85 -54,180 -82,265 -109,323 -229,726 -333,1064 -26,88 -55,179 -82,265 -14,44 -27,84 -40,129 -97,340 -229,721 -331,1067 -13,46 -26,88 -42,135l-88 268 -249 -793c-30,-91 -52,-175 -82,-264l-584 -1854c-201,-598 -384,-1255 -585,-1855l-332 -1056c-30,-91 -52,-175 -82,-264l-170 -534c-26,-87 -54,-179 -82,-264l-125 -400c-14,-49 -32,-91 -44,-135 -62,-225 -102,-341 -300,-394 -110,-30 -343,-46 -599,-53l-477 0c-176,5 -329,14 -420,26 -132,18 -322,77 -322,237z"/>
+ </g>
 </svg>

@@ -1,9 +1,19 @@
-<svg width="29" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.5 21.3125L7.84375 25.25V35H0.8125V0.875H7.84375V16.3438L10.9375 12.1016L19.6328 0.875H28.2812L16.1641 16.0391L28.6328 35H20.2656L11.5 21.3125Z" fill="url(#paint0_diamond)"/>
-<defs>
-<radialGradient id="paint0_diamond" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12.2424 16.8929) rotate(88.0754) scale(45.1147 45.0815)">
-<stop stop-color="#FFD458" stop-opacity="0.78"/>
-<stop offset="1" stop-color="#F9BF2E"/>
-</radialGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="110mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 11000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:141.11}
+    .fil0 {fill:#FAED23}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M926 728l0 9483c0,302 540,341 893,345l206 0c249,0 782,-7 909,-218 48,-79 32,-230 32,-350l0 -4537c32,24 800,1243 898,1403 181,297 374,588 562,881l675 1059c38,61 71,117 112,177 155,230 293,475 448,706 92,135 372,617 460,695 109,95 248,133 423,154 118,15 249,25 384,30l465 0c178,-7 350,-23 499,-48 619,-103 320,-527 144,-877 -28,-56 -67,-107 -101,-159 -576,-864 -1138,-1736 -1716,-2597 -167,-249 -1181,-1765 -1195,-1815l97 -126c36,-48 67,-85 102,-132 68,-92 133,-174 201,-265l2001 -2628c168,-224 336,-433 483,-672 116,-189 351,-564 57,-720 -73,-39 -174,-60 -266,-78 -222,-45 -299,-27 -476,-37 -176,-9 -520,-10 -687,12 -141,18 -308,32 -429,111 -138,89 -215,234 -304,367 -182,274 -378,537 -559,811l-2161 3139c-27,41 -83,137 -117,162l0 -4220c0,-244 -116,-294 -360,-339 -207,-39 -298,-37 -488,-42 -147,-5 -171,-9 -326,-1 -53,3 -114,-4 -166,2 -221,24 -700,32 -700,324z"/>
+ </g>
 </svg>

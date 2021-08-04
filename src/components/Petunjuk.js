@@ -20,18 +20,17 @@ export default function About() {
     
     return (
         <div>
-            <Button onClick={onOpen} colorScheme="green">Petunjuk</Button>
+            <Button onClick={onOpen} colorScheme="green">Tentang</Button>
             
             <Modal onClose={onClose} isOpen={isOpen} isCentered>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Petunjuk</ModalHeader>
+          <ModalHeader>Tentang</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-              <Text fontSize="sm">Cara menggunakan media ini adalah sebagi berikut: <br></br>
-              1. Buka media pada browser anda<br></br>
-              2. Tunggu hingga kamera On dan arahkan tangan sesuai perintah yang ada pada layar<br></br>
-              3. Buat gerakan sesuai dengan gambar yang ada di atas.<br></br>
+              <Text fontSize="sm">MEDIA PENGENALAN BAHASA ISYARAT<br></br>
+              Media ini adalah sarana belajar siswa yang dikemas dengan lebih modern dan menarik dengan memanfaatkan AI untuk mendeteksi huruf yang diinginkan oleh pengguna.<br></br>
+              <br></br>
          </Text>
                      
           </ModalBody>
